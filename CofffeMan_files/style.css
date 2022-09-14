@@ -1,0 +1,340 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+	overflow-x: hidden;
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+}
+
+.intro {
+	margin-top: 25px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.intro-img {
+	background-image: url(img/cof.svg);
+	width: 1014px;
+	height: 678px;
+	background-repeat: no-repeat;
+}
+
+.intro .intro-text {
+	position: absolute;
+	font-size: 62px;
+	right: 750px;
+	top: 220px;
+}
+
+.intro-contact {
+	background-color: #fbc30b;
+	max-width: 590px;
+	position: absolute;
+	right: 401px;
+	top: 688px;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 50px;
+	height: 80px;
+}
+
+.intro-contact i {
+	color: #fff;
+	margin-right: 30px;
+}
+
+.intro-contact p {
+	font-size: 18px;
+	margin-right: 50px;
+}
+
+
+
+/* Moscow, Russia */
+.stats {
+	display: flex;
+	margin-top: 140px;
+}
+
+.stats-line {
+	display: flex;
+}
+
+.stats-text {
+	padding: 40px;
+}
+
+.stats-text h2 {
+	font-size: 40px;
+	margin-bottom: 70px;
+}
+
+.stats-text p {
+	margin-top: 50px;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.square {
+	width: 200px;
+	height: 200px;
+	background-color: #f6f5f4;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.stats-square {
+	font-size: 43px;
+	color: #fbc30b;
+	margin-bottom: 15px;
+}
+
+.square-text {
+	font-size: 14px;
+}
+
+
+
+/* media */
+@media screen and (max-width: 768px) {
+	.intro {
+		margin-top: 0;
+		display: block;
+		max-width: 100%;
+	}
+	.intro-img {
+		background-position: bottom 50px right 530px;
+	}
+	.intro .intro-text {
+		position: relative;
+		font-size: 38px;
+		right: -25px;
+		top: 95px;
+	}
+	.intro .intro-contact {
+		right: 0;
+		top: -60px;
+		padding: 20px 10px;
+		position: relative;	
+	}
+	.intro-contact p {
+		font-size: 13px;
+		margin-right: 0;
+	}
+	.stats {
+		margin-top: 0;
+		flex-direction: column;
+	}
+	.stats-text {
+		padding: 10px
+	}
+	.stats-text h2 {
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+	.stats-text p {
+		margin-top: 5px;
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.square {
+		height: 140px;
+	}
+}
+
+
+/* Кофе которое продаём */
+.section-header {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.feature {
+	margin-top: 60px;
+}
+
+.feature p {
+	margin-top: 20px;
+}
+
+.section {
+	margin-top: 85px;
+}
+
+.row{
+	margin-right: -340px;
+	margin-left: -340px;
+}
+
+.texth {
+	margin-top: 30px;
+}
+
+.gt {
+	font-size: 32px;
+}
+
+
+
+
+
+/* Запрос */
+.request {
+	background-color: #fbc30b;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.request_flex-left {
+	color: #fff;
+}
+
+.request_h4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 48px;
+	margin-bottom: 20px;
+	letter-spacing: 0.02em;
+	color: #2b2b2a;
+}
+
+.request_h5 {
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	color: #2b2b2a;
+}
+
+#request_icon {
+	margin-right: 13px;
+}
+
+.request_btn {
+	border: none;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	padding: 14px 30px;
+}
+
+.request_btn:hover {
+	background-color: #000;
+	color: #fff;
+	transition: 0.7s;
+}
+
+
+@media screen and (max-width: 768px) {
+	.request-flex {
+		flex-wrap: wrap;
+	}
+}
+
+
+
+/* Бариста */
+.photo {
+	background-image: url(https://www.ivd.ru/uploads/5ac26b960d50f.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+/* Обратная связь */
+
+.Connection {
+	border-radius: 20px;
+	background-color: #000;
+	box-shadow: 0 0 0 10px #000;
+	height: 350px;
+	width: 420px;
+	text-align: center;
+}
+
+.In-text {
+	font-size: 25px;
+	margin: 40px 0 5 px 0;
+	color: #303030;
+}
+
+.In-text {
+	font-size: 17px;
+	margin: 0;
+	color: #303030;
+	margin-bottom: 25px;
+}
+
+.message {
+	background: #f1f1f1;
+	height: 50px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	width: 320px;
+	margin: 15px auto 0 auto;
+}
+
+.message i {
+	font-size: 15px;
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	padding-right: 10px;
+}
+
+.message input {
+	flex: .7;
+	background: #f1f1f1;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+
+.Enter {
+	border: none;
+	color: #fff;
+	background: #717170;
+	width: 190px;
+	height: 45px;
+	border-radius: 40px;
+	font-weight: bold;
+	margin-top: 30px;
+	color: #fff;
+	transition: 0.8s;
+	outline: none;
+}
+
+.Enter:hover {
+	background-color: #fbc30b;
+	color: #000;
+}
+
+#h2 {
+	color: #e8e6df;
+	font-size: 18px;
+}
+
+#p {
+	color: #e8e6df;
+	font-size: 21px;
+}

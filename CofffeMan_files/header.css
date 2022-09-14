@@ -1,0 +1,13 @@
+#nav-link1 {
+	color: #000;
+	font-weight: 500;
+	margin-right: 20px;
+}
+
+.coffee {
+	font-weight: 700;
+}
+
+#nav-link1:hover {
+	border-bottom: 2px solid #000;
+}
